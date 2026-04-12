@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-Spring-Default-Login-Form/project1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02.1-Login-with-React-form-and-H2-Storage/project2" vcs="Git" />
   </component>
 </project>

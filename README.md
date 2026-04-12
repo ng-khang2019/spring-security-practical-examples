@@ -1,6 +1,6 @@
 List of projects in this repository:
-1. Login In-Memory Credentials
-2. Login and Signup with H2 and PostgreSQL Credentials Storage
+1. Login In-Memory Credentials with Spring Default Login Form
+2. Login and Signup with H2 and PostgreSQL Credentials Storage with React
 3. Login and Signup with JWT
 4. Login/Signup and Reset Password
 5. Roled-Based Access Control
