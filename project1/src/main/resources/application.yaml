@@ -1,0 +1,37 @@
+# Spring settings
+spring:
+  profiles:
+    active: dev
+  main:
+    banner-mode: off
+    lazy-initialization: false
+
+# Log
+logging:
+  pattern:
+    console: ${CONSOLE_LOG_PATTERN}
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+
+# Info
+info:
+  app:
+    name: Security Basic
+    description: Spring Boot, Spring Web, Spring Actuator, Spring DevTools
+    version: 1.0.0
+
+
+
+
