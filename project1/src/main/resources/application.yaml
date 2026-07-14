@@ -1,13 +1,21 @@
 # Spring settings
 spring:
-  profiles:
-    active: dev
   main:
     banner-mode: off
     lazy-initialization: false
 
+  # Security
+  security:
+    user:
+      name: khang
+      password: khang123
+
 # Log
 logging:
+  level:
+    org:
+      springframework:
+        security: trace
   pattern:
     console: ${CONSOLE_LOG_PATTERN}
 
