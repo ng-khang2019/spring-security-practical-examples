@@ -1,6 +1,6 @@
 List of projects in this repository:
-Login using Default Spring Security Form
-Login In-Memory Credentials with Spring Default Login Form
+1. Login using Default Spring Security Form
+2. Login using In-Memory Credentials with Spring Default Login Form
 Login and Signup with H2 and PostgreSQL Credentials Storage with React
 Login and Signup with JWT
 Login/Signup and Reset Password
